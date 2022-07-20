@@ -88,6 +88,7 @@ describe("SignInForm Integration test", () => {
       getByTestId(document.body, "user-password-error-msg"),
     ).not.toHaveClass("hidden");
   });
+
   /**-------------**/
   it("Pas de messages d'erreur si l'email et le MDP sont correct", () => {
     // Simule les events
